@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<banner class="banner">
+  <div class="banner-text">
+    <h1>Expert dog walking & behaviour services</h1>
+    <p>We’re Dogs Unleashed, a Lancaster based dog walking & behaviourist business run by Elise Atkin</p>
+    <a class="button" href="/contact">Get in touch</a>
+  </div>
+  <div class="banner-image"></div>
+</banner>
+<div class="banner-intro">
+  <img class="banner-avatar" src="/assets/elise.png">
+  <p>Hi, I’m Elise and I founded Dogs Unleashed in 2016 to fulfil my dream of providing the dogs of Lancaster with enriching walks amongst the beautiful local area.</p>
+</div>
+
+<div class="wrapper">
+  <div class="flex-grid">
+    <div class="col">
+      <img src="/assets/doggy.svg" class="icon">
+      <h3>Dog Walks</h3>
+      <p>I walk dogs in small carefully chosen groups depending on their abilities and needs, to make the walk harmonious and enjoyable for all.
+
+        I plan for walks to be a combination of fun adventures, training, sniffing, confidence building and decompression depending on each dog’s needs each walk. 
+    </div>
+    <div class="col">
+      <img src="/assets/location.svg" class="icon">
+      <h3>Walk Locations</h3>
+      Whether a quiet sniff through the woods, an exciting adventure down the river or a mix of both, all walk locations are determined by the group’s needs and abilities. I also carefully consider walk locations to minimize the time your dog will spend travelling in the van.
+    </div>
+    <div class="col">
+      <img src="/assets/time.svg" class="icon">
+      <h3>Walk Times</h3>
+      <p>I offer the choice of morning or afternoon walks between the hours of 10.30AM-4.30PM to suit you and your dog’s needs. All walks are 90 minutes so you can be assured that your dog has had a long stimulating experience.</p>
+    </div>
+  </div>
+
+  <div class="flex-grid">
+    <div class="col">
+      <h3>Join our walks</h3>
+      <p>If you would like a regular slot for your dog to join our adventures and your dog is social, over 12 months (18months for large breeds), fit enough for a 90min walk, lives in Lancaster, vaccinated, up to date with flea, worms, tick treatments/titre tested and neutered please contact me for more information.</p>
+      <p>I am reliable, fully insured and I collect and drop off your dog at your home in my crated van.</p>
+      <p><strong>Please note:</strong> I do not walk dogs on an ad hoc basis. I walk in all weathers so your dog must be happy to play out in the rain. </p>
+    </div>
+  </div>
+</div>
+<div class="testimonials">
+  <h2>What my customers say</h2>
+  <div class="main-carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+    <div class="carousel-cell">Elise has my dog’s wellbeing at the heart of all she does. I fully trust her skills commitment and expertise in all things dog related and in the great way she understands the dogs in her care. I trust her to look after my dog completely and know he is in the best hands. Our dog just can’t wait to go out for his walks with Elise and that makes me happy too. 5 ***** from me!</div>
+    <div class="carousel-cell">Elise has been my dog walker for 10 years, since we first came to Lancaster.  She is always reliable, and clearly adores dogs, including mine.   My springer spaniel adores her in return and is always delighted when her van pulls up.  He gets a good long walk of at least an hour and a half, in a small group, which really suits him.  Elise is knowledgeable and skilled in dog behaviour and training, and my dog has learned good habits on his walks. I highly recommend Elise if you are looking for a dog walker. 5/5*</div>
+    <div class="carousel-cell">Our dog has been walking with Elise every week since being a puppy.
+      We trust Elise implicitly and are always sure that our dog is in very good hands having a wonderful time. Elise is very knowledgeable in “all things dog,” often offering expert advice on a number of topics. Our dog loves Elise and is always very excited for his walks returning tired from all the varied walks and experiences. When placing dogs within a group, Elise always considers the individual animal’s personality and character so as to group the dogs in the most appropriate group. I would not hesitate to recommend Elise to fellow dog owners. You will not find a more dedicated committed dog lover.</div>
+    <div class="carousel-cell">My dog has been going on walks with Elise for years! She loves her. Elise takes extra special care of my girl as she only has 3 legs! Plus my dog can be a pain at times! I like hearing from Elise how the walk has gone and what my dog got up to. I recommend Elise as she is reliable, caring and loves the dogs.
+
+    </div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+    <div class="home">
+      {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+      {%- endif -%}
+
+      {{ content }}
+
+      {%- if site.posts.size > 0 -%}
+        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+        <ul class="post-list">
+          {%- for post in site.posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      {%- endif -%}
+
+    </div>
+  </div>
+</main>
