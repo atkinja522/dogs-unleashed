@@ -4,7 +4,3 @@
 
 layout: home
 ---
-
-### Service Areas
-
-Lancaster including Scotforth, Bowerham, Freehold, Hala, Aldcliffe, Stodday, Central, Marsh, Moorlands & Primrose
