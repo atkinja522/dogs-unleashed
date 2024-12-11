@@ -1,9 +1,8 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
-
 
 Hi, I’m Elise and I founded Dogs Unleashed in 2016 to fulfil my dream of providing the dogs of Lancaster with enriching walks amongst the beautiful local area.
 

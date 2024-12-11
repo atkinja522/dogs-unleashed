@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Contact
-permalink: /contact/
+permalink: "/contact/"
+layout: page
 ---
 
 To get in touch to arrange any of my services, please use the form below and I'll get back to you as soon as I can. Thank you!
