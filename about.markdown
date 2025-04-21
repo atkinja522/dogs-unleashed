@@ -4,16 +4,26 @@ permalink: "/about/"
 layout: page
 ---
 
-Hi, I’m Elise and I founded Dogs Unleashed in 2016 to fulfil my dream of providing the dogs of Lancaster with enriching walks amongst the beautiful local area.
+## About Me
 
-I have a HND degree in Animal Welfare and a BSc degree in Animal Behaviour from Harper Adams University, I have worked in animal rescue centres, zoos, farms and a pet store. After university I came home and started with another local dog walking company and when they decided to go a different route, I started Dogs Unleashed and have never looked back!
+Hi, I’m Elise! I founded Dogs Unleashed in 2016 to turn my passion for animals into a career, providing the dogs of Lancaster with enriching walks in the stunning local countryside.
 
-I have over ten years of experience working with and enjoying the company of dogs of all breeds, temperaments and life experiences I have thorough knowledge of canine body language, canine group dynamics and positive training methods.
+I hold a BSc in Animal Behaviour and an HND in Animal Welfare and Management from Harper Adams University. My experience spans animal rescue centres, zoos, farms, and pet stores. After university, I returned home to work for a local dog walking company. When they decided to go in a different direction, I took the leap and created Dogs Unleashed — and I’ve never looked back!
 
-I walk dogs in small groups depending on their abilities and needs, to make the walk harmonious and enjoyable for all. I walk in all weathers* so your dog must be happy to come out and play in the rain.
+With over 10 years of hands-on experience, I’ve had the privilege of working with dogs of all breeds, temperaments, and life experiences. I’ve dedicated my career to understanding canine body language, group dynamics, and positive reinforcement training, always staying up to date through continuous learning and research.
 
-I am reliable, fully insured and I collect and drop off your dog at your home in my crated van.
+## My Approach
 
-If you would like your dog to join our adventures and your dog is social, over 12 months (18months for large breeds), fit enough for a 90min walk, lives in Lancaster, vaccinated, up to date with flea, worms, tick treatments/titre tested and neutered please contact me for more information.
+Dogs are more than just pets — they’re loyal companions who bring joy, connection, and unconditional love into our lives. I believe the bond between humans and dogs is truly special, built on trust, understanding, and mutual respect.
 
-*Extreme weather conditions not applicable. Extreme weather that will have an adverse effect on your dog’s health will be cancelled or altered, though this is very rare.
+That’s why I focus on building trust with your dog through consistency, clear communication, and positive reinforcement. Every walk is an opportunity to nurture confidence, encourage natural behaviours like sniffing and exploring, and make sure each dog feels safe, happy, and fulfilled.
+
+## Why Choose Dogs Unleashed? 
+
+Walking dogs is more than just a job for me — it’s a chance to connect with each dog as an individual, understand their unique personality, and ensure their physical and mental needs are met.
+
+With a reputation for reliability, compassionate care, and full insurance, many of my wonderful clients have entrusted their dogs to me for over a decade. You can rest easy knowing your beloved companion is in experienced, caring hands. 
+
+My goal is to help unleash your dog’s full potential, ensuring they lead a happy, balanced, and enriched life.
+
+**Instagram:** [dogsunleashedlancaster](https://www.instagram.com/dogsunleashedlancaster?igsh=NHNpZWJuMmY2MW9r)
