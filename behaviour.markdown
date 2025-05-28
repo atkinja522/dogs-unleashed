@@ -4,8 +4,6 @@ permalink: "/behaviour/"
 layout: page
 ---
 
-Helping you understand your dog by transforming unwanted behaviours into clear communication and a happier life together.
-
 ### Understand Your Dog's Language and Strengthen Your Bond
 
 Dogs don’t act out of defiance — they communicate through body language and subtle cues. I’ll teach you to understand that language so you can truly know what your dog is trying to tell you and address issues before they escalate. When you learn to see the world through your dog’s eyes, everyday life becomes easier for both of you.

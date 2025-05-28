@@ -130,6 +130,10 @@
   line-height: 16px;
   float: left;
 }
+img.radius, .radius {
+  border-radius: $spacing-unit / 2;
+  overflow: hidden;
+}
 /*
 .banner div {
   max-width: 550px;
@@ -138,6 +142,14 @@
   flex-basis: auto;
   color: $background-color;
   padding: calc(#{$spacing-unit} * 2);
+  background-image: url(/assets/Pawprints.svg);
+  width: 50%;
+  max-width: 500px;
+}
+.other .banner-text {
+  flex-basis: auto;
+  color: $background-color;
+  padding: calc(#{$spacing-unit} * 0);
   background-image: url(/assets/Pawprints.svg);
   width: 50%;
   max-width: 500px;
@@ -174,10 +186,21 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.banner-intro.other {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
 @media (max-width: $on-laptop) {
   .banner-intro {
     margin-left: $spacing-unit;
     margin-right: $spacing-unit;
+    font-size: $base-font-size;
+  }
+}
+@media (max-width: $on-laptop) {
+  .banner-intro.other {
+    margin-left: 0;
+    margin-right: 0;
     font-size: $base-font-size;
   }
 }
@@ -199,7 +222,7 @@
   margin: 0;
 }
 .banner-avatar {
-  max-width: calc(#{$spacing-unit} * 3);
+  max-width: calc(#{$spacing-unit} * 4);
   height: 100%;
   margin-right: $spacing-unit;
 }
@@ -253,12 +276,17 @@ a.button:hover {
 }
 .carousel-cell {
   width: 66%;
-  height: 220px;
+  height: 500px;
   margin-right: 10px;
   background-color: $green-color-light;
   border-radius: $spacing-unit / 2;
   counter-increment: gallery-cell;
-  padding: $spacing-unit;
+  overflow: hidden;
+}
+.carousel-cell img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 @media (max-width: $on-palm) {
   .carousel-cell {
@@ -268,11 +296,11 @@ a.button:hover {
     font-size: $base-font-size * 0.75;
   }
 }
-.testimonials {
+.testimonials, .owners {
   padding: $spacing-unit 0 $spacing-unit * 2;
   background-color: #EDF7F1;
 }
-.testimonials h2 {
+.testimonials h2, .owners h2 {
   text-align: center;
 }
 /* cell number
@@ -286,6 +314,30 @@ a.button:hover {
 }
 */
 
+/*.owners {
+
+}*/
+.owners ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.owners ul li {
+  padding: $spacing-unit;
+  margin: $spacing-unit;
+  background: white;
+  border-radius: $spacing-unit/2;
+}
+
+/**
+ * Site footer
+ */
+.contact-footer {
+  background-color: $green-color;
+}
+.contact-footer .banner-text {
+  width: 100%;
+}
 /**
  * Site footer
  */
