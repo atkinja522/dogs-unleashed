@@ -4,7 +4,12 @@ permalink: "/about/"
 layout: page
 ---
 
-Hi, I’m Elise! I founded Dogs Unleashed in 2016 to turn my passion for animals into a career, providing the dogs of Lancaster with enriching walks in the stunning local countryside.
+<img class="radius" src="/assets/dog2.jpg">
+
+<div class="banner-intro other">
+  <img class="banner-avatar" src="/assets/elise-1.png">
+  <p>Hi, I’m Elise and I founded Dogs Unleashed in 2016 to fulfil my dream of providing the dogs of Lancaster with enriching walks in the stunning local countryside.</p>
+</div>
 
 I hold a BSc in Animal Behaviour and an HND in Animal Welfare and Management from Harper Adams University. My experience spans animal rescue centres, zoos, farms, and pet stores. After university, I returned home to work for a local dog walking company. When they decided to go in a different direction, I took the leap and created Dogs Unleashed — and I’ve never looked back!
 
